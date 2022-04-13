@@ -15,7 +15,7 @@ public class Pr6_3
 		 String xx = "";
 		 for (int i = 0; i < n; i++)
 		 {
-			 xx = xx + "*";
+			 xx = xx + " *";
 		 }
 		 return xx;
 	}
@@ -25,13 +25,13 @@ public class Pr6_3
 		int n = IBIO.inputInt("how many lines: ");
 		IBIO.output("");
 		
-		for (int i = 1; i<=(n+1); i++)
+		for (int i = 1; i <= (n + 1); i++)
 		{
-			IBIO.output(blank(n-i) + stars(n));
+			IBIO.output(blank(n - i) + stars(n));
 		}
-		for (int i = n; i>=1; i--)
+		for (int i = n; i >= 1; i--)
 		{
-			IBIO.output(blank(n-i) + stars(n)); 
+			IBIO.output(blank(n - i) + stars(n)); 
 		}
 	}
 }
